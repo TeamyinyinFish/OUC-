@@ -1,0 +1,124 @@
+.page
+{
+  height:2000rpx;
+  background:#e7e2e256;
+}
+.head
+{
+  position:relative;
+  height:350rpx;
+  display:flex;
+}
+.head #book
+{
+  position:relative;
+  top:50rpx;
+  left:50rpx;
+  width:200rpx;
+  height:250rpx;
+}
+.head .information
+{
+  position:relative;
+  left:175rpx;
+  width:375rpx;
+}
+.information .bookname
+{
+  position:relative;
+  top:55rpx;
+  height:80rpx;
+  font-weight:bolder;
+}
+.information .author
+{
+  position:relative;
+  top:55rpx;
+  height:80rpx;
+  font-size:30rpx;
+  color:gray;
+}
+.information .tail
+{
+  position:relative;
+  top:55rpx;
+  height:80rpx;
+  display:flex;
+}
+.tail .label
+{
+  top:20rpx;
+  position:relative;
+  width:50rpx;
+  height:35rpx;
+  border-radius:50%;
+  font-size:20rpx;
+  text-align:center;
+  color:white;
+  background:red;
+}
+.tail .classify
+{
+  position:relative;
+  top:20rpx;
+  left:60rpx;
+  font-size:25rpx;
+  color:gray;
+}
+.body
+{
+ position:relative;
+ height:400rpx;
+ display:flex; 
+}
+.body .details
+{
+  position:relative;
+  width:50%;
+  height:100rpx;
+  border-top:1px solid #b0b0b0;
+  border-bottom:1px solid #b0b0b0;
+  border-right:1px solid #b0b0b0;
+  display:flex;
+}
+.body .remark
+{
+  position:relative;
+  width:50%;
+  height:100rpx;
+  border-top:1px solid #b0b0b0;
+  border-bottom:1px solid #b0b0b0;
+  display:flex;
+}
+.details #txt1
+{
+  position:relative;
+  top:30rpx;
+  left:130rpx;
+  font-size:30rpx;
+  color:gray;
+}
+.details #img1
+{
+  position:relative;
+  top:25rpx;
+  left:135rpx;
+  width:50rpx;
+  height:50rpx;
+}
+.remark #txt2
+{
+  position:relative;
+  top:30rpx;
+  left:130rpx;
+  font-size:30rpx;
+  color:gray;
+}
+.remark #img2
+{
+  position:relative;
+  top:10rpx;
+  left:135rpx;
+  width:80rpx;
+  height:80rpx;
+}
