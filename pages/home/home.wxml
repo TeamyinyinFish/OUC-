@@ -1,0 +1,41 @@
+<!--pinform.wxml-->
+<view class="face">
+  <view class="example">
+    <view class="marquee_box">
+      <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;">
+        <image src="{{adUrl}}" class='ad-image' />{{text}}
+      </view>
+    </view>
+  </view>
+    <text class="head">OUC图书馆</text>
+  <view>
+      <label class="block" src="/pages/image/bg1.jpg">
+      <view id="block1">
+        <image id="one" src="/pages/image/check.jpg"></image><navigator id="nav1" url="../check/check" redirect>检索</navigator>
+      </view>
+      <view id="block2">
+        <image id="two" src="/pages/image/renew.jpg"></image><navigator id="nav2" url="../borrow/borrow" redirect>借书</navigator>
+      </view>
+      <view id="block3">
+        <image id="three" src="/pages/image/remark.jpg"></image><navigator id="nav3" url="../remark/remark" redirect>评论</navigator>
+      </view>
+      <view id="block4">
+        <image id="four" src="/pages/image/appt.jpg"></image><navigator id="nav4" url="../appointment/appointment" redirect>预约</navigator>
+      </view>
+      </label>
+      <view class="foot">
+        <view class="introduction">
+          <text id="txt1">图书馆简介</text>
+          <image id="img1" src="../image/nav1.png"/>
+        </view>
+        <view class="distribute">
+          <text id="txt2">馆内楼层分布</text>
+          <image id="img2" src="../image/nav1.png"/>
+        </view>
+        <view class="notice">
+          <text id="txt3">通知</text>
+          <image id="img3" src="../image/nav1.png"/>
+        </view>
+      </view>
+  </view>
+</view>
