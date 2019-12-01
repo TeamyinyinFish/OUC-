@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/borrow/borrow",
+    "pages/check/check",
+    "pages/appointment/appointment",
+    "pages/remark/remark"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#64c5ff",
+    "navigationBarTitleText": "OUC图书馆",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
