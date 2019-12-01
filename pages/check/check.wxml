@@ -1,0 +1,313 @@
+<view >
+  <view class="head">
+  <view class="page_row" bindtap="suo">
+    <view class="search">
+      <view class="search_arr">
+        <icon class="searchicon" size="20" type="search"></icon>
+        <input class="" disabled placeholder="书名、作者或ISBN" value=""/>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class="middle">
+    <view class="scan">
+      <view class="scan1">
+        <view id="view1">
+          <image id="icon1" src="/pages/image/scan.gif"/>
+        </view>
+        <text id="text1">条形码扫描</text>
+        <view id="view2">
+          <image id="icon3" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="scan2">
+        <view id="view1">
+          <image id="icon2" src="/pages/image/book.jpg"/>
+        </view>
+        <text id="text2">书籍封面扫描</text>
+        <view id="view2">
+         <image id="icon4" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="foot">
+    <view class="s1">
+      <view class="f1">
+        <view id="view1">
+          <text id="txt1">理学</text>
+        </view>
+        <view id="view2">
+          <image id="img1" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g1">
+        <view id="one">
+          <text id="t1">数学</text>
+        </view>
+        <view id="two">
+          <text id="t2">物理</text>
+        </view>
+        <view id="three">
+          <text id="t3">化学</text>
+        </view>
+      </view>
+      <view class="k1">
+        <view id="one">
+          <text id="t1">生物</text>
+        </view>
+        <view id="two">
+          <text id="t2">地理</text>
+        </view>
+        <view id="three">
+          <text id="t3">统计</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+    <view class="s2">
+      <view class="f2">
+        <view id="view1">
+          <text id="txt2">工学</text>
+        </view>
+        <view id="view2">
+          <image id="img2" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g2">
+        <view id="one">
+          <text id="t1">计算机</text>
+        </view>
+        <view id="two">
+          <text id="t2">电子信息</text>
+        </view>
+        <view id="three">
+          <text id="t3">电气工程</text>
+        </view>
+      </view>
+      <view class="k2">
+        <view id="one">
+          <text id="t1">力学</text>
+        </view>
+        <view id="two">
+          <text id="t2">机械</text>
+        </view>
+        <view id="three">
+          <text id="t3">材料科学</text>
+        </view>
+      </view>
+      <view class="l2">
+        <view id="one">
+          <text id="t1">建筑</text>
+        </view>
+        <view id="two">
+          <text id="t2">土木工程</text>
+        </view>
+        <view id="three">
+          <text id="t3">环境</text>
+        </view>
+      </view>
+      <view class="m2">
+        <view id="one">
+          <text id="t1">测绘</text>
+        </view>
+        <view id="two">
+          <text id="t2">地矿</text>
+        </view>
+        <view id="three">
+          <text id="t3">园林</text>
+        </view>
+      </view>
+      <view class="n2">
+        <view id="one">
+          <text id="t1">食品</text>
+        </view>
+        <view id="two">
+          <text id="t2">化工</text>
+        </view>
+        <view id="three">
+          <text id="t3">汽车</text>
+        </view>
+      </view>
+      <view class="o2">
+        <view id="one">
+          <text id="t1">其他</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+    <view class="s3">
+      <view class="f3">
+        <view id="view1">
+          <text id="txt3">文学</text>
+        </view>
+        <view id="view2">
+          <image id="img3" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g3">
+        <view id="one">
+          <text id="t1">中文</text>
+        </view>
+        <view id="two">
+          <text id="t2">英语</text>
+        </view>
+        <view id="three">
+          <text id="t3">小语种</text>
+        </view>
+      </view>
+      <view class="k3">
+        <view id="one">
+          <text id="t1">新闻传播</text>
+        </view>
+        <view id="two">
+          <text id="t2">编辑出版</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+    <view class="s4">
+      <view class="f4">
+        <view id="view1">
+          <text id="txt4">经济学</text>
+        </view>
+        <view id="view2">
+          <image id="img4" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g4">
+        <view id="one">
+          <text id="t1">经济</text>
+        </view>
+        <view id="two">
+          <text id="t2">金融</text>
+        </view>
+        <view id="three">
+          <text id="t3">证券</text>
+        </view>
+      </view>
+      <view class="k4">
+        <view id="one">
+          <text id="t1">保险</text>
+        </view>
+        <view id="two">
+          <text id="t2">外贸</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+    <view class="s5">
+      <view class="f5">
+        <view id="view1">
+          <text id="txt5">管理学</text>
+        </view>
+        <view id="view2">
+          <image id="img5" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g5">
+        <view id="one">
+          <text id="t1">公共管理</text>
+        </view>
+        <view id="two">
+          <text id="t2">管理</text>
+        </view>
+        <view id="three">
+          <text id="t3">财会</text>
+        </view>
+      </view>
+      <view class="k5">
+        <view id="one">
+          <text id="t1">物流</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+    <view class="s6">
+      <view class="f6">
+        <view id="view1">
+          <text id="txt6">法学|政治</text>
+        </view>
+        <view id="view2">
+          <image id="img6" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+       <view class="g6">
+        <view id="one">
+          <text id="t1">法学</text>
+        </view>
+        <view id="two">
+          <text id="t2">政治学</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+     <view class="s7">
+      <view class="f7">
+        <view id="view1">
+          <text id="txt7">教育学</text>
+        </view>
+        <view id="view2">
+          <image id="img7" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g7">
+        <view id="one">
+          <text id="t1">教育</text>
+        </view>
+        <view id="two">
+          <text id="t2">心理</text>
+        </view>
+        <view id="three">
+          <text id="t3">体育</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+   <view class="s8">
+      <view class="f8">
+        <view id="view1">
+          <text id="txt8">哲学|历史|艺术|军事</text>
+        </view>
+        <view id="view2">
+          <image id="img8" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g8">
+        <view id="one">
+          <text id="t1">哲学</text>
+        </view>
+        <view id="two">
+          <text id="t2">历史</text>
+        </view>
+        <view id="three">
+          <text id="t3">艺术</text>
+        </view>
+      </view>
+      <view class="k8">
+        <view id="one">
+          <text id="t1">军事</text>
+        </view>
+      </view>
+    </view>
+    <view id="space"></view>
+    <view class="s9">
+      <view class="f9">
+        <view id="view1">
+          <text id="txt9">农学|医学</text>
+        </view>
+        <view id="view2">
+          <image id="img9" src="/pages/image/nav1.png"/>
+        </view>
+      </view>
+      <view class="g9">
+        <view id="one">
+          <text id="t1">农学</text>
+        </view>
+        <view id="two">
+          <text id="t2">医学</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
