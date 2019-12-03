@@ -1,0 +1,25 @@
+<view class="page">
+  <view class="head">
+    <image id="book" src="/pages/image/check.jpg"/>
+    <view class="information">
+      <view class="bookname">战争与和平</view>
+      <view class="author">列夫.托尔斯泰</view>
+      <view class="tail">
+        <view class="label">标签</view>
+        <view class="classify">文学</view>
+      </view>
+    </view>
+  </view>
+  <view class="body">
+    <view class="details">
+      <text id="txt1">详情</text>
+      <image id="img1" src="/pages/image/details.jpg"/>
+    </view>
+    <view class="remark">
+      <text id="txt2">评论</text>
+      <image id="img2" src="/pages/image/debate.jpg"/>
+    </view>
+  </view>
+  <view class="foot">
+  </view>
+</view>

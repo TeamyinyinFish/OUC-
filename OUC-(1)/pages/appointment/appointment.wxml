@@ -1,0 +1,5 @@
+<view class="face">
+  <view class="head"></view>
+  <view class="middle"></view>
+  <view class="foot"></view>
+</view>

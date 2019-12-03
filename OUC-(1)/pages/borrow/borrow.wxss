@@ -1,0 +1,176 @@
+.page
+{
+  background:#e7e2e256;
+  height:3000rpx;
+}
+.head
+{
+  position:relative;
+  width:100%;
+  height:350rpx;
+}
+.title
+{
+  position:relative;
+  top:220rpx;
+  width:100%;
+  display:flex;
+}
+.title #img1
+{
+  position:relative;
+  top:10rpx;
+  left:200rpx;
+  width:100rpx;
+  height:100rpx;
+}
+.title #txt1
+{
+  position:relative;
+  top:30rpx;
+  left:240rpx;
+  font-size:50rpx;
+  font-family:'Times New Roman', Times, serif;
+}
+.search
+{
+  position:relative;
+  top:280rpx;
+  left:100rpx;
+  display:flex;
+  background:white;
+  width:80%;
+  border-radius:3%;
+  border:1px solid black;
+}
+.search input
+{
+  position:relative;
+  margin-left:60rpx;
+  left:80rpx;
+  height:60rpx;
+  border-radius:5rpx;
+  font-size:30rpx;
+}
+.search .searchicon
+{
+  margin:10rpx 10rpx 10rpx 10rpx;
+  position:relative;
+  z-index:2;
+  left:50rpx;
+  width:20rpx;
+  height:20rpx;
+  text-align:center;
+}
+.search .scan 
+{
+  position:relative;
+  left:100rpx;
+  top:5rpx;
+  width:50rpx;
+  height:50rpx;
+}
+.body
+{
+  position:relative;
+  left:270rpx;
+  top:85rpx;
+  width:100%;
+  height:200rpx;
+}
+.body #txt1
+{
+  font-size:25rpx;
+  font-family:'Times New Roman', Times, serif;
+  color:#b0b0b0;
+}
+.list
+{
+  position:relative;
+  display:flex;
+  width:100%;
+  height:100rpx;
+}
+.list #block1
+{
+  position:relative;
+  border-radius:50%;
+  left:100rpx;
+  width:100rpx;
+  height:100rpx;
+  background:#e7e2e256;
+  box-shadow:3rpx 3rpx 3rpx inset black;
+}
+.list #block2
+{
+  position:relative;
+  border-radius:50%;
+  left:250rpx;
+  width:100rpx;
+  height:100rpx;
+  background:#e7e2e256;
+  box-shadow:3rpx 3rpx 3rpx inset black;
+}
+.list #block3
+{
+  position:relative;
+  border-radius:50%;
+  left:400rpx;
+  width:100rpx;
+  height:100rpx;
+  background:#e7e2e256;
+  box-shadow:3rpx 3rpx 3rpx inset black;
+}
+#block1 #img1
+{
+  position:relative;
+  border-radius:50%;
+  left:25rpx;
+  top:25rpx;
+  width:50rpx;
+  height:50rpx;
+}
+#block2 #img2
+{
+  position:relative;
+  border-radius:50%;
+  left:25rpx;
+  top:25rpx;
+  width:50rpx;
+  height:50rpx;
+}
+#block3 #img3
+{
+  position:relative;
+  border-radius:50%;
+  left:25rpx;
+  top:25rpx;
+  width:50rpx;
+  height:50rpx;
+}
+.bottom
+{
+  position:relative;
+  top:10rpx;
+}
+.bottom #txt1
+{
+  position:relative;
+  left:115rpx;
+  font-size:30rpx;
+  color:#b0b0b0;
+}
+.bottom #txt2
+{
+  position:relative;
+  left:310rpx;
+  font-size:30rpx;
+  color:#b0b0b0;
+}
+.bottom #txt3
+{
+  position:relative;
+  left:500rpx;
+  font-size:30rpx;
+  color:#b0b0b0;
+}

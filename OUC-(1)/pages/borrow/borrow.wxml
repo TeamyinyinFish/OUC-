@@ -1,0 +1,27 @@
+<view class="page">
+  <view class="head">
+    <view class="title">
+      <image id="img1" src="../image/OUCbook.jpg"/>
+      <text id="txt1">OUC借书</text>
+    </view>
+    <view class="search">
+      <icon class="searchicon" size="20" type="search"></icon>
+      <input class="" disabled placeholder="搜索图书" value=""/>
+      <image class="scan" src="../image/scan.gif"/>
+    </view>
+  </view>
+  <view class="body">
+    <text id="txt1" >海纳百川，取则行远</text>
+  </view>
+  <view class="list">
+    <view id="block1"><image id="img1" src="../image/star.jpg"/></view>
+    <view id="block2"><image id="img2" src="../image/label.jpg"/></view>
+    <view id="block3"><image id="img3" src="../image/star1.jpg"/></view>
+  </view>
+  <view class="bottom">
+    <text id="txt1">推荐</text>
+    <text id="txt2">专题</text>
+    <text id="txt3">收藏</text>
+  </view>
+  <view class="foot" ></view>
+</view>
