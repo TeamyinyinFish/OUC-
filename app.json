@@ -1,16 +1,38 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/logout/logout",
+    
     "pages/borrow/borrow",
     "pages/check/check",
     "pages/appointment/appointment",
-    "pages/remark/remark"
+    "pages/remark/remark",
+    "pages/library_seats/library_seats"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#64c5ff",
     "navigationBarTitleText": "OUC图书馆",
     "navigationBarTextStyle": "white"
+  },
+"tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath":"pages/home/home",
+        "selectedIconPath": "pages/image/home.png",
+        "iconPath": "pages/image/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logout/logout",
+        "iconPath": "pages/image/account2.png",
+        "selectedIconPath": "pages/image/account2.png",
+        "text": "个人中心"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

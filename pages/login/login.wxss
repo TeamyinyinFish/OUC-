@@ -1,0 +1,61 @@
+.page
+{
+  height:100%;
+}
+.head
+{
+  display:flex;
+  position:relative;
+  height:200rpx;
+}
+.head #img1
+{
+  position:relative;
+  top:30rpx;
+  left:30rpx;
+  border-radius:50%;
+  width:150rpx;
+  height:150rpx;
+}
+.head #txt1
+{
+  position:relative;
+  top:90rpx;
+  left:50rpx;
+  font-size:35rpx;
+}
+.middle
+{
+  position:relative;
+  height:150rpx;
+  background:#e2e2e756;
+  display:flex;
+  border-bottom:1rpx solid gray;
+}
+.middle #img1
+{
+  border-radius:50%;
+  position:relative;
+  top:30rpx;
+  left:30rpx;
+  width:100rpx;
+  height:100rpx;
+}
+.middle #txt1
+{
+  top:50rpx;
+  left:90rpx;
+  position:relative;
+  font-size:40rpx;
+  font-weight:bolder;
+  color:aqua;
+}
+.middle #img2
+{
+  position:relative;
+  border-radius:50%;
+  top:30rpx;
+  left:300rpx;
+  width:100rpx;
+  height:100rpx;
+}

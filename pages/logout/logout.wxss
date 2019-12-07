@@ -1,0 +1,63 @@
+.page
+{
+  height:2000rpx;
+  background: #e2e2e756;
+}
+.head
+{
+  display:flex;
+  position:relative;
+  height:200rpx;
+}
+.head #img1
+{
+  position:relative;
+  top:50rpx;
+  left:30rpx;
+  border-radius:50%;
+  width:100rpx;
+  height:100rpx;
+}
+.head #txt1
+{
+  position:relative;
+  top:90rpx;
+  left: 200rpx;
+  font-size:35rpx;
+}
+.middle
+{
+  position:relative;
+  height:150rpx;
+  background:white;
+  display:flex;
+
+}
+.middle #img1
+{
+  border-radius:50%;
+  position:relative;
+  top:50rpx;
+  left:30rpx;
+  width:60rpx;
+  height:60rpx;
+
+}
+.middle #txt1
+{
+  top:50rpx;
+  left:90rpx;
+  position:relative;
+  font-size:40rpx;
+  font-weight:bolder;
+  color:black;
+}
+.middle #img2
+{
+  top:50rpx;
+  position:relative;
+  height:60rpx;
+  width:60rpx;
+  left:400rpx;
+
+}

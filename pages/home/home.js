@@ -5,8 +5,33 @@ Page({
     marqueeDistance: 0,//初始滚动距离
     size: 14,
     orientation: 'left',//滚动方向
-    interval: 20, // 时间间隔
+    interval: 30, // 时间间隔
     adUrl: '../image/trumpet.jpg',
+  },
+  block1: function(){
+    wx.navigateTo({
+      url: '../check/check',
+    })
+  },
+  block2: function () {
+    wx.navigateTo({
+      url: '../borrow/borrow',
+    })
+  },
+  block3: function () {
+    wx.navigateTo({
+      url: '../remark/remark',
+    })
+  },
+  block4: function () {
+    wx.navigateTo({
+      url: '../appointment/appointment',
+    })
+  },
+  gotoPage: function () {
+    wx.navigateTo({
+      url: '../library_seats/library_seats',
+    })
   },
   onShow: function () {
     // 页面显示
@@ -35,5 +60,6 @@ Page({
         that.runMarquee();
       }
     }, that.data.interval);
-  }
+  },
+  
 })

@@ -1,0 +1,11 @@
+<view class="page">
+    <view class="head">
+      <image id="img1" src="/pages/image/personal.jpg"/>
+      <text id="txt1">WeOUC</text>
+    </view>
+    <view class="middle">
+      <image id="img1" src="/pages/image/lock.jpg"/>
+      <navigator id="txt1"  url="../login/login" redirect>绑定解除</navigator>
+      <image id="img2" src="/pages/image/nav3.jpg"/>
+    </view>
+</view>

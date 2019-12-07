@@ -5,7 +5,7 @@
       <text id="txt1">OUC借书</text>
     </view>
     <view class="search">
-      <icon class="searchicon" size="20" type="search"></icon>
+      <icon class="searchicon"  type="search"></icon>
       <input class="" disabled placeholder="搜索图书" value=""/>
       <image class="scan" src="../image/scan.gif"/>
     </view>

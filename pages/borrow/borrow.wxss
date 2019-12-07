@@ -58,8 +58,8 @@
   position:relative;
   z-index:2;
   left:50rpx;
-  width:20rpx;
-  height:20rpx;
+  width:25rpx;
+  height:25rpx;
   text-align:center;
 }
 .search .scan 
@@ -80,6 +80,8 @@
 }
 .body #txt1
 {
+  position:relative;
+  top:15rpx;
   font-size:25rpx;
   font-family:'Times New Roman', Times, serif;
   color:#b0b0b0;

@@ -1,4 +1,4 @@
-/* pages/home/home.wxss */
+/* pages/pinform/pinform.wxss */
 .face
 {
   width:100%;
@@ -55,20 +55,22 @@
   height:85px;
   border-radius:2%;
   display:flex;
-  background:#64c5ff;
-  box-shadow:6rpx 6rpx 6rpx black;
+  background:#97d9ff;
+  box-shadow:8rpx 8rpx 8rpx #97d9ff75
 }
 #block1
 {
   position:relative;
   width:75px;
   height:85px;
+  
 }
 #block2
 {
   position:relative;
   width:75px;
   height:85px;
+  
 }
 #block3
 {
@@ -117,37 +119,37 @@
 #block1 #nav1
 {
   position:relative;
-  left:25px;
-  top:7px;
+  right: 35rpx;
+  top:60rpx;
   font-size:15px;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
 #block2 #nav2
 {
   position:relative;
-  left:25px;
-  top:7px;
+  right: 35rpx;
+  top:60rpx;
   font-size:15px;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
 #block3 #nav3
 {
   position:relative;
-  left:25px;
-  top:7px;
+  right: 35rpx;
+  top:60rpx;
   font-size:15px;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
 #block4 #nav4
 {
   position:relative;
-  left:25px;
-  top:7px;
+  right: 35rpx;
+  top:60rpx;
   font-size:15px;
-  font-family:'Times New Roman', Times, serif;
+  font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
 #1
@@ -180,7 +182,7 @@
 }
 .introduction #txt1
 {
-  left:50rpx;
+  left:80rpx;
   top:50rpx;
   position:relative;
   font-weight:bolder;
@@ -190,8 +192,8 @@
 {
   top:50rpx;
   position:relative;
-  height:50rpx;
-  width:50rpx;
+  height:60rpx;
+  width:60rpx;
   left:350rpx;
 }
 .foot .distribute
@@ -204,7 +206,7 @@
 }
 .distribute #txt2
 {
-  left:50rpx;
+  left:80rpx;
   top:50rpx;
   position:relative;
   font-weight:bolder;
@@ -214,8 +216,8 @@
 {
   position:relative;
   top:50rpx;
-  height:50rpx;
-  width:50rpx;
+  height:60rpx;
+  width:60rpx;
   left:350rpx;
 }
 .foot .notice
@@ -231,14 +233,14 @@
   position:relative;
   font-weight:bolder;
   top:50rpx;
-  left:50rpx;
+  left:80rpx;
   width:250rpx;
 }
 .notice #img3
 {
   position:relative;
   top:50rpx;
-  height:50rpx;
-  width:50rpx;
+  height:60rpx;
+  width:60rpx;
   left:350rpx;
 }

@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="block">
+    <text id="txt1">绑定教务处</text>
+    <view class="msg1">
+      <text id="txt2">学号</text>
+      <input class="stnumber" type="text" placeholder="请输入学号" bindinput="number"/>
+    </view>
+    <view class="msg2">
+      <text id="txt3">密码</text>
+      <input class="pwd" type="password" placeholder="请输入密码" bindinput="password"/>
+    </view>
+    <text id="txt4"></text>
+    <button id="btn" bindtap="bind">绑定</button>
+  </view>
+</view>
