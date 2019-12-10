@@ -4,8 +4,8 @@
   width:100%;
   height:750px;
   position:absolute;
-  margin:0px;
-  padding:0px;
+  margin:0rpx;
+  padding:0rpx;
   background-color:#f2f2f2;
 }
 .example {
@@ -40,19 +40,19 @@
 .head
 {
   position:absolute;
-  font-size:20px;
+  font-size:50rpx;
   font-weight:bolder;
   font-family:'Times New Roman', Times, serif;
-  left:110px;
+  left:250rpx;
   top:100rpx;
 }
 .block
 {
   position:absolute;
   top:200rpx;
-  left:10px;
-  width:300px;
-  height:85px;
+  left:25rpx;
+  width:700rpx;
+  height:180rpx;
   border-radius:2%;
   display:flex;
   background:#97d9ff;
@@ -61,94 +61,94 @@
 #block1
 {
   position:relative;
-  width:75px;
-  height:85px;
+  width:175rpx;
+  height:180rpx;
   
 }
 #block2
 {
   position:relative;
-  width:75px;
-  height:85px;
-  
+  width:175rpx;
+  height:180rpx;
+
 }
 #block3
 {
   position:relative;
-  width:75px;
-  height:85px;
+  width:175rpx;
+  height:180rpx;
 }
 #block4
 {
   position:relative;
-  width:75px;
-  height:85px;
+  width:175rpx;
+  height:180rpx;
 }
 #block1 #one
 {
   position:relative;
-  top:10px;
-  left:20px;
-  width:40px;
-  height:50px;
+  top:18rpx;
+  left:50rpx;
+  width:80rpx;
+  height:108rpx;
 }
 #block2 #two
 {
   position:relative;
-  top:10px;
-  left:20px;
-  width:40px;
-  height:50px;
+  top:18rpx;
+  left:50rpx;
+  width:80rpx;
+  height:108rpx;
 }
 #block3 #three
 {
   position:relative;
-  top:10px;
-  left:20px;
-  width:40px;
-  height:50px;
+  top:18rpx;
+  left:50rpx;
+  width:80rpx;
+  height:108rpx;
 }
 #block4 #four
 {
   position:relative;
-  top:10px;
-  left:20px;
-  width:40px;
-  height:50px;
+  top:18rpx;
+  left:50rpx;
+  width:80rpx;
+  height:108rpx;
 }
 #block1 #nav1
 {
   position:relative;
-  right: 35rpx;
-  top:60rpx;
-  font-size:15px;
+  right: 20rpx;
+  top:50rpx;
+  font-size:30rpx;
   font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
 #block2 #nav2
 {
   position:relative;
-  right: 35rpx;
-  top:60rpx;
-  font-size:15px;
+  right: 20rpx;
+  top:50rpx;
+  font-size:30rpx;
   font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
 #block3 #nav3
 {
   position:relative;
-  right: 35rpx;
-  top:60rpx;
-  font-size:15px;
+  right: 20rpx;
+  top:50rpx;
+  font-size:30rpx;
   font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
 #block4 #nav4
 {
   position:relative;
-  right: 35rpx;
-  top:60rpx;
-  font-size:15px;
+  right: 20rpx;
+  top:50rpx;
+  font-size:30rpx;
   font-family:'fantasy', Times, serif;
   color:rgb(23, 23, 24);
 }
